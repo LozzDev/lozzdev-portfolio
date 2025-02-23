@@ -36,7 +36,7 @@ const AboutMe = () => {
         
       <div className='flex flex-col rounded-3xl h-100 w-full items-center mt-77 sm:mt-15 md:mt-0 '>
         <h1 className='text-4xl font-bold mb-4'>Stack</h1>
-        <Slider {...settings} className='bg-black h-[400px] w-75 rounded-2xl justify-center sm:w-120 items-center p-10'>
+        <Slider {...settings} className='bg-black h-[350px] w-75 rounded-2xl justify-center sm:w-167 items-center p-10 '>
           <div className='flex items-center justify-center h-[200px] w-full'>
             <h2 className='text-xl text-white text-center'>Back-end</h2>
             <div className="flex space-x-4 mt-8 items-center justify-center">

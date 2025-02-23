@@ -3,12 +3,12 @@ import './MainSection.css';
 import FlowingMenu from '../FlowingMenu/FlowingMenu';
 
 const demoItems = [
-    { link: '#', text: 'QARDROBE', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337071/qardrobe_h1dld0.png' },
-    { link: '#', text: 'COLOR EASE', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740336543/colorease_sbxw3e.png' },
-    { link: '#', text: 'EYE OF THE DOOM', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740335561/eye-of-the-doom_1_iqorhf.png' },
-    { link: '#', text: 'Your Gainz', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337558/yourgainz_ww4g4p.png' },
-    { link: '#', text: 'Hotel Magnolia', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337698/magnolia_r932se.png' },
-    { link: '#', text: 'Mini proyectos', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337780/miniProjects_p33hrh.png' },
+    { link: 'https://www.qardrobe.com/', text: 'QARDROBE', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337071/qardrobe_h1dld0.png' },
+    { link: 'https://color-ease.vercel.app/', text: 'COLOR EASE', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740336543/colorease_sbxw3e.png' },
+    { link: 'https://eye-of-the-doom.vercel.app/', text: 'EYE OF THE DOOM', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740335561/eye-of-the-doom_1_iqorhf.png' },
+    { link: 'https://github.com/Nando218/YourGainz', text: 'Your Gainz🔧', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337558/yourgainz_ww4g4p.png' },
+    { link: 'https://github.com/Bimai6/Magnolia-Hotels', text: 'Hotel Magnolia🔧', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337698/magnolia_r932se.png' },
+    { link: 'https://github.com/LozzDev?tab=repositories', text: 'Mini proyectos', image: 'https://res.cloudinary.com/dzecw7i0a/image/upload/v1740337780/miniProjects_p33hrh.png' },
 
   ];
 
