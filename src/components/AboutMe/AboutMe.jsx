@@ -19,9 +19,9 @@ const AboutMe = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center gap-5 ml-6 mr-6 place-items-center sm:ml-50 sm:mr-50 mt-20'>
-      <div className='w-full flex flex-col sm:min-w-xl'>
-        <h1 className='text-3xl mb-4 text-gray-300 text-center'>Sobre mí</h1>
+    <div id='about-me' className='flex flex-col justify-center gap-5 ml-6 mr-6 place-items-center  sm:ml-13 sm:mr-13 mt-20 className=" relative overflow-hidden rounded-2xl border border-white/15 bg-[#f2f2f20c] p-1.5 shadow-2xl lg:rounded-3xl lg:p-2  w-full" '>
+      <div id='' className='w-full flex flex-col sm:min-w-xl pr-10 pl-10'>
+        <h1 className='text-3xl mb-4 text-gray-300 text-center '>Sobre mí</h1>
 
         <p className='text-xl font-light text-justify mb-4 text-gray-300'>👋 ¡Hola! Soy Jesús Manuel, un apasionado por la tecnología y el desarrollo web. Estudiante de Desarrollo Web con pasión por aprender, explorar nuevas tecnologías y crecer profesionalmente en el sector IT  💻.</p>
         
@@ -32,7 +32,7 @@ const AboutMe = () => {
 
       </div>
       
-      <div className='w-full  flex  flex-wrap justify-items-center gap-2 text-lg lg:gap-4 sm:min-w-xl '>
+      <div className='w-full  flex  flex-wrap justify-items-center gap-2 text-lg lg:gap-4 sm:min-w-xl pr-10 pl-10'>
       <div className='flex items-center gap-2 rounded-xl border border-white/[0.14] bg-neutral-900 px-3 py-1 text-sm'>
           <img src="https://res.cloudinary.com/dzecw7i0a/image/upload/v1740342225/react_j2ut8m.webp" width={'20px'} /> React
       </div>
