@@ -32,7 +32,7 @@ const AboutMe = () => {
 
       </div>
       
-      <div className='w-full  flex  flex-wrap justify-center gap-2 text-lg lg:gap-4 sm:min-w-xl '>
+      <div className='w-full  flex  flex-wrap justify-items-center gap-2 text-lg lg:gap-4 sm:min-w-xl '>
       <div className='flex items-center gap-2 rounded-xl border border-white/[0.14] bg-neutral-900 px-3 py-1 text-sm'>
           <img src="https://res.cloudinary.com/dzecw7i0a/image/upload/v1740342225/react_j2ut8m.webp" width={'20px'} /> React
       </div>
